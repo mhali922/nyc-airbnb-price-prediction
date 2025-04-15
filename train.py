@@ -1,9 +1,10 @@
 import wandb
-from wandb.sklearn import plot_summary
+#from wandb.sklearn import plot_summary
 from preprocessing import load_data, preprocess_data, create_pipeline
 
+
 # Initialize Weights and Biases project
-wandb.init(project="NYC-Airbnb-Price-Prediction", entity="your_wandb_username")
+wandb.init(project="NYC-Airbnb-Price-Prediction", entity="mohd-hasnain86-ejada")
 
 # Load and preprocess the data
 df = load_data()
@@ -23,5 +24,5 @@ print(f"Test R^2 Score: {test_score}")
 wandb.log({"test_score": test_score})
 
 # Log predictions and feature importance
-wandb.sklearn.plot_summary(model, X_test, y_test)
+#wandb.sklearn.plot_summary(model, X_test, y_test)
 

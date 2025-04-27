@@ -1,3 +1,5 @@
+This has been successfully accepted by the Udacity project and received the certificate.
+
 GITHUB Project link -
 
 https://github.com/mhali922/nyc-airbnb-price-prediction.git

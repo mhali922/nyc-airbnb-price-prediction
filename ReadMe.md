@@ -1,4 +1,4 @@
-This has been successfully accepted by the Udacity project and received the certificate.
+This has been successfully accepted by the Udacity project and received the certificate. [attached]
 
 GITHUB Project link -
 
